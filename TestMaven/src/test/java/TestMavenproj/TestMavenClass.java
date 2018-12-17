@@ -13,6 +13,6 @@ public class TestMavenClass {
 		System.setProperty("webdriver.chrome.driver", "E:\\Suman\\Softwares\\Cell\\Drivers\\Chrome\\chromedriver.exe");
 		WebDriver dr = new ChromeDriver();
 		dr.get("https://www.google.com");
-		System.out.println("The page title is : " + dr.getTitle()+" got it man????");
+		System.out.println("The page title is : " + dr.getTitle()+" got it man........????");
 	}
 }
